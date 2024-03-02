@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class ProgrammerConfig {
 
     @Bean
-    public Programmer boss() {
+    public Programmer programmer() {
         return new Programmer();
     }
 
